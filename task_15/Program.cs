@@ -7,5 +7,5 @@
 using static System.Console;
 Clear();
 WriteLine("Введите день недели");
-int number_day = Convert.ToInt32(ReadLine());
+int number_day = int.Parse(ReadLine());
 WriteLine(number_day>5 ? "Это день выходной" : "Этот день рабочий");
