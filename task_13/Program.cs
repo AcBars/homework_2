@@ -7,5 +7,5 @@
 using static System.Console;
 Clear();
 WriteLine("Введите число");
-int number = Convert.ToInt32(ReadLine());
+int number = int.Parse(ReadLine());
 WriteLine(number>99 ? $"Третья цифра числа {number} это {number/100%10}" : $"В числе {number} нет третьей цифры");
