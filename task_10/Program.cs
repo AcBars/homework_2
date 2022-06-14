@@ -7,6 +7,6 @@
 using static System.Console;
 Clear();
 WriteLine("Введите трёхзначное число");
-int number = Convert.ToInt32(ReadLine());
+int number = int.Parse(ReadLine());
 int number2 = number/10%10;
 WriteLine($"Вторая цифра введенного числа: {number2}");
